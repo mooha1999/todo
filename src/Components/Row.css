@@ -1,0 +1,31 @@
+.tasks{
+  padding-inline-start: 0px;
+}
+.task-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid black;
+  margin: 10px 0px;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+
+.icons-container{
+  width: 30%;
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/*TODO make the flex direction: column in small screens*/
+
+.task-container{
+  width: 70%;
+  padding: 2px 0px;
+}
+
+.finish{
+  text-decoration: line-through;
+}
